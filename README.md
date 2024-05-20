@@ -19,16 +19,16 @@
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
 
 ### Data Visualization
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?logo=tableau&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?logo=power-bi&logoColor=black) ![Google Data Studio](https://img.shields.io/badge/-Google%20Data%20Studio-4285F4?logo=google-data-studio&logoColor=white)
+![Tableau](https://img.shields.io/badge/-Tableau-E97627?logo=tableau&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?logo=powerbi&logoColor=black) ![Google Data Studio](https://img.shields.io/badge/-Google%20Data%20Studio-4285F4?logo=googlecloud&logoColor=white)
 
 ### GIS Tools
 ![QGIS](https://img.shields.io/badge/-QGIS-3A3A3A?logo=qgis&logoColor=white) ![ArcGIS](https://img.shields.io/badge/-ArcGIS-34A853?logo=arcgis&logoColor=white)
 
 ### Multimedia
-![After Effects](https://img.shields.io/badge/-After%20Effects-9999FF?logo=adobe-after-effects&logoColor=white) ![Filmora](https://img.shields.io/badge/-Filmora-FF4500?logo=filmora&logoColor=white) ![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white)
+![After Effects](https://img.shields.io/badge/-After%20Effects-9999FF?logo=adobeaftereffects&logoColor=white) ![Filmora](https://img.shields.io/badge/-Filmora-FF4500?logo=wondershare&logoColor=white) ![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white)
 
 ### Office Suite
-![Microsoft Office](https://img.shields.io/badge/-Microsoft%20Office-D83B01?logo=microsoft-office&logoColor=white)
+![Microsoft Office](https://img.shields.io/badge/-Microsoft%20Office-D83B01?logo=microsoftoffice&logoColor=white)
 
 ## 📚 Currently Learning
 
@@ -36,10 +36,10 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
 
 ### Web Development
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
 
 ### Cloud Computing
-![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoftazure&logoColor=white)
 
 ## 🌐 Language Skills
 
