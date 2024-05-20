@@ -1,6 +1,3 @@
-<iframe src="https://github.com/caiofoti/caiofoti/blob/01b18d6302e13c9b06eeae282de8bbf19173a72f/welcome.html" width="100%" height="300px"></iframe>
-
-
 ## 🛠️ Myskills
 
 [![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git,html,ubuntu)](https://skillicons.dev)
