@@ -1,6 +1,44 @@
-## 🎮 Fun Stuff
+```html
 
-<iframe height="400px" width="100%" src="https://codepen.io/caiofoti/pen/rNgxRGM"></iframe>
+<h2>Caio Foti - GitHub Profile</h2>
+<p>Hey there, I'm Caio, welcome to my GitHub profile!</p>
+<p>Loading...</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caio Foti - GitHub Profile</title>
+<style>
+  body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #00FF00;
+    text-align: center;
+    padding-top: 50px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00FF00;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    animation: blinking 0.8s infinite;
+  }
+  @keyframes blinking {
+    50% {
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+</body>
+</html>
+\```
 
 ## 🛠️ Myskills
 
