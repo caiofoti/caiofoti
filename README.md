@@ -1,6 +1,4 @@
-## 🎓 Introduction
-
-Biomedical Informatics student at UFCSPA passionate about leveraging **data-driven solutions** for **innovation**. Seeking career advancement in software development within a **collaborative environment**.
+<iframe height="400px" width="100%" src="https://codepen.io/caiofoti/pen/rNgxRGM"></iframe>
 
 ## 🛠️ Myskills
 
@@ -24,5 +22,5 @@ Biomedical Informatics student at UFCSPA passionate about leveraging **data-driv
 
 ## 📫 Contact
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](www.linkedin.com/in/caio-foti-pontes-0a1a54206)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](www.linkedin.com/in/caio-foti-ponte)s-0a1a54206)
 [![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:fotipontes@gmail.com)
