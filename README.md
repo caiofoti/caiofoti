@@ -1,4 +1,4 @@
-<iframe height="400px" width="100%" src="https://codepen.io/caiofoti/pen/rNgxRGM"></iframe>
+Check out my [CodePen project](https://codepen.io/caiofoti/pen/rNgxRGM) for some interactive fun!
 
 ## 🛠️ Myskills
 
@@ -22,5 +22,5 @@
 
 ## 📫 Contact
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](www.linkedin.com/in/caio-foti-ponte)s-0a1a54206)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](www.linkedin.com/in/caio-foti-ponte)
 [![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:fotipontes@gmail.com)
