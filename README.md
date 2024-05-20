@@ -3,7 +3,7 @@
 Biomedical Informatics student at UFCSPA passionate about leveraging data-driven solutions for innovation. Seeking career advancement in software development within a collaborative environment.
 ## 🛠️ Myskills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git,tableau,powerbi)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git)](https://skillicons.dev)
 
 ## 📚 LearningSkills
 
