@@ -1,4 +1,6 @@
-Check out my [CodePen project](https://codepen.io/caiofoti/pen/rNgxRGM) for some interactive fun!
+## 🎮 Fun Stuff
+
+<iframe height="400px" width="100%" src="https://codepen.io/caiofoti/pen/rNgxRGM"></iframe>
 
 ## 🛠️ Myskills
 
