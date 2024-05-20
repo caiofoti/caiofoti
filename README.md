@@ -1,6 +1,22 @@
 ## 🎓 Introduction
 
-Biomedical Informatics student at UFCSPA passionate about leveraging data-driven solutions for innovation. Seeking career advancement in software development within a collaborative environment.
+<p style="font-size: 18px;">
+    Biomedical Informatics student at UFCSPA passionate about leveraging 
+    <span style="color: #FF5733; font-weight: bold; text-decoration: underline; animation: pulse 1s infinite;">data-driven solutions</span> 
+    for 
+    <span style="color: #33FFC1; font-weight: bold; text-decoration: underline; animation: pulse 1s infinite;">innovation</span>. 
+    Seeking career advancement in software development within a 
+    <span style="color: #3384FF; font-weight: bold; text-decoration: underline; animation: pulse 1s infinite;">collaborative environment</span>.
+</p>
+
+<style>
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+</style>
+
 ## 🛠️ Myskills
 
 [![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git,html,ubuntu)](https://skillicons.dev)
