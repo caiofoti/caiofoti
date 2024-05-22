@@ -18,7 +18,3 @@
 - Resilient, Seeking New Challenges
 - Adaptable with Ease and Flexibility
 
-## 📫 Contact
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](www.linkedin.com/in/caio-foti-ponte)
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:fotipontes@gmail.com)
