@@ -1,4 +1,6 @@
-<img width="75%" src="welcome.svg">
+<div align="center">
+  <img width="300px" src="welcome.svg">
+</div>
 
 ## About Me
 I am a dedicated 5th-grade biomedical informatics student at the Federal University of Health Sciences of Porto Alegre (UFCSPA), Brazil, with a profound interest in leveraging technology to drive advancements in healthcare and sustainability.
