@@ -1,34 +1,9 @@
 <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-  <text id="text1" x="50%" y="30%" class="typing-text" text-anchor="middle" font-family="'Courier New', monospace" font-size="24px" fill="#00FF00"></text>
-  <text id="text2" x="50%" y="45%" class="typing-text" text-anchor="middle" font-family="'Courier New', monospace" font-size="24px" fill="#00FF00"></text>
-  <text id="text3" x="50%" y="55%" class="typing-text" text-anchor="middle" font-family="'Courier New', monospace" font-size="24px" fill="#00FF00"></text>
-
-  <script type="text/ecmascript">
-    <![CDATA[
-      var texts = [
-        "Caio Foti - GitHub Profile",
-        "Hey there, I'm Caio, welcome to my GitHub profile!",
-        "Loading..."
-      ];
-      var currentTextIndex = 0;
-      var currentCharIndex = 0;
-
-      function typeText() {
-        if (currentTextIndex < texts.length) {
-          var textElement = document.getElementById("text" + (currentTextIndex + 1));
-          textElement.textContent = texts[currentTextIndex].substring(0, currentCharIndex);
-          currentCharIndex++;
-          if (currentCharIndex <= texts[currentTextIndex].length) {
-            setTimeout(typeText, 100); // Typing speed
-          } else {
-            currentTextIndex++;
-            currentCharIndex = 0;
-            setTimeout(typeText, 2000); // Delay between texts
-          }
-        }
-      }
-
-      typeText();
-    ]]>
-  </script>
+  <text x="50%" y="30%" class="typing-text" text-anchor="middle" font-family="'Courier New', monospace" font-size="24px" fill="#00FF00">Caio Foti - GitHub Profile</text>
+  <text x="50%" y="45%" class="typing-text" text-anchor="middle" font-family="'Courier New', monospace" font-size="24px" fill="#00FF00">Hey there, I'm Caio, welcome to my GitHub profile!</text>
+  <text x="50%" y="55%" class="typing-text" text-anchor="middle" font-family="'Courier New', monospace" font-size="24px" fill="#00FF00">Loading...</text>
+  <!-- Dashed line -->
+  <line x1="30%" y1="72%" x2="70%" y2="72%" stroke="#00FF00" stroke-width="2" stroke-dasharray="10 5">
+    <animate attributeName="stroke-dashoffset" from="0" to="15" dur="1s" repeatCount="indefinite"/>
+  </line>
 </svg>
