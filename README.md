@@ -1,6 +1,4 @@
-
 <img width="75%" src="welcome.svg">
-
 ## 🛠️ Myskills
 
 [![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git,html,ubuntu)](https://skillicons.dev)
