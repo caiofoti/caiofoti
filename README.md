@@ -1,3 +1,7 @@
+
+<img width="100%" src="https://github.com/8BitJonny/8BitJonny/raw/master/skills.svg">
+
+
 ## 🛠️ Myskills
 
 [![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git,html,ubuntu)](https://skillicons.dev)
