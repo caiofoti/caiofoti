@@ -1,5 +1,5 @@
 
-<img width="100%" src="welcome.svg">
+<img width="50%" src="welcome.svg">
 
 
 ## 🛠️ Myskills
