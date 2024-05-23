@@ -1,5 +1,5 @@
 
-<img width="100%" src="https://github.com/8BitJonny/8BitJonny/raw/master/skills.svg">
+<img width="100%" src="welcome.svg">
 
 
 ## 🛠️ Myskills
