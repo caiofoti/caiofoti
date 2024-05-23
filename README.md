@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="300px" src="welcome.svg">
+  <img width="500px" src="welcome.svg">
 </div>
 
 ## About Me
