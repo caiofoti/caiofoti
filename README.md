@@ -6,11 +6,11 @@
 
 ## 🛠️ Myskills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,django,git,html,ubuntu)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=python,java,c,r,mysql,postgresql,git,html,ubuntu)](https://skillicons.dev)
 
 ## 📚 LearningSkills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=javascript,typescript,react,nodejs,aws,azure)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=javascript,django,css,typescript,react,nodejs,aws,azure)](https://skillicons.dev)
 
 ## 🌐 Language Skills
 
