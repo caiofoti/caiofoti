@@ -23,6 +23,6 @@ Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size
 
 ## &#x1f4c8; GitHub Stats
 <a href="https://github.com/caiofoti/caiofpti">
-  <img align="center" src="(https://github-readme-stats.vercel.app/api/top-langs/?username=caiofoti)](https://github.com/caiofoti/github-readme-stats" />
+  <img align="center" src="((https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
 
