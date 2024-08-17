@@ -9,11 +9,11 @@ Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size
 
 ## 🛠️ Myskills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=python,django,java,eclipse,js,html,css,mysql,mongodb,git)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=python,django,java,eclipse,js,html,css,mysql,mongodb,git&perline=5)](https://skillicons.dev)
 
 ## 📚 LearningSkills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=go,react,angular,vue,aws)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=go,react,angular,vue,aws&perline=5)](https://skillicons.dev)
 
 ## 🌐 Language Skills
 
@@ -21,9 +21,8 @@ Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size
 - **English:** Advanced
 - **Spanish:** Intermediate
 
-## 💡 Personal Qualities
-
-- Communicative, Patient
-- Resilient, Seeking New Challenges
-- Adaptable with Ease and Flexibility
+## &#x1f4c8; GitHub Stats
+<a href="https://github.com/caiofoti/caiofpti">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiofoti,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+</a>
 
