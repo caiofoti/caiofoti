@@ -22,7 +22,7 @@ Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size
 - **Spanish:** Intermediate
 
 ## &#x1f4c8; GitHub Stats
-<a href="https://github.com/caiofoti/caiofpti">
-  <img align="center" src="((https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats" />
+<a href="https://github.com/caiofoti/caiofoti">
+  <img align="center" src="[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)" />
 </a>
 
