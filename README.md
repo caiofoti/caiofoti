@@ -9,11 +9,11 @@ Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size
 
 ## 🛠️ Myskills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=python,django,java,javascript,html,css,mysql)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=python,django,java,eclipse,js,html,css,mysql,mongodb,git)](https://skillicons.dev)
 
 ## 📚 LearningSkills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=reactjs,typescript,nodejs,aws)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=go,react,angular,vue,aws)](https://skillicons.dev)
 
 ## 🌐 Language Skills
 
