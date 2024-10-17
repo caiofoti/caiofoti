@@ -13,7 +13,7 @@ Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size
 
 ## 📚 LearningSkills
 
-[![Specifying Icons](https://skillicons.dev/icons?i=go,react,angular,vue,aws&perline=5)](https://skillicons.dev)
+[![Specifying Icons](https://skillicons.dev/icons?i=go,react,angular,flutter,firebase,aws&perline=5)](https://skillicons.dev)
 
 ## 🌐 Language Skills
 
