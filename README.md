@@ -11,7 +11,7 @@
 # Technical Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,django,php,js,react,vue,vite,mysql,postgres,docker,git" />
+  <img src="https://skillicons.dev/icons?i=laravel,django,php,python,js,react,vue,vite,mysql,postgres,docker,git" />
 </p>
 ---
 
