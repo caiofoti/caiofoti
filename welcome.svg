@@ -2,12 +2,14 @@
   <style>
     .bg { fill: #000; }
     .text { fill: #00FF00; font-family: 'Courier New', monospace; font-size: 24px; }
-    .cursor { fill: #00FF00; }
+    .cursor { fill: #00FF00; animation: blink 1s step-end infinite; }
+    line.separator { stroke: #00FF00; stroke-width: 2; stroke-dasharray: 8 4; animation: dash 1s linear infinite; }
     @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes dash { to { stroke-dashoffset: 12; } }
   </style>
 
   <!-- Background -->
-  <rect width="800" height="600" class="bg"/>
+  <rect width="100%" height="100%" class="bg"/>
 
   <!-- Header -->
   <text x="50%" y="150" class="text" text-anchor="middle">Caio Foti - GitHub Profile</text>
@@ -18,14 +20,9 @@
   <!-- Prompt line with blinking cursor -->
   <g transform="translate(40,340)">
     <text class="text">$ Loading profile data</text>
-    <text x="225" y="0" class="cursor" id="cursor">_</text>
+    <text x="225" y="0" class="cursor">_</text>
   </g>
 
   <!-- Separator line -->
-  <line x1="40" y1="380" x2="760" y2="380" stroke="#00FF00" stroke-width="2" stroke-dasharray="8 4">
-    <animate attributeName="stroke-dashoffset" from="0" to="12" dur="1s" repeatCount="indefinite" />
-  </line>
-
-  <!-- Cursor blink animation -->
-  <animate xlink:href="#cursor" attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite"/>
+  <line x1="40" y1="380" x2="760" y2="380" class="separator"/>
 </svg>
