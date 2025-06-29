@@ -1,22 +1,47 @@
-<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .terminal {
         fill: #0d1117;
         stroke: #30363d;
         stroke-width: 1;
-        rx: 6;
+        rx: 8;
       }
       
-      .user { fill: #7c3aed; font-weight: bold; }
-      .at { fill: #f97316; }
-      .host { fill: #10b981; font-weight: bold; }
-      .path { fill: #06b6d4; }
-      .command { fill: #e5e7eb; }
-      .output { fill: #22c55e; }
+      .title-bar {
+        fill: #21262d;
+        rx: 8 8 0 0;
+      }
+      
+      .window-controls {
+        rx: 50%;
+      }
+      .close { fill: #ff5f56; }
+      .minimize { fill: #ffbd2e; }
+      .maximize { fill: #27ca3f; }
+      
+      .title-text {
+        fill: #8b949e;
+        font-size: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      }
+      
+      .ascii-title {
+        fill: #7ee787;
+        font-family: 'Courier New', monospace;
+        font-size: 18px;
+        font-weight: bold;
+        text-anchor: middle;
+      }
+      
+      .user { fill: #58a6ff; font-weight: bold; }
+      .host { fill: #7ee787; font-weight: bold; }
+      .path { fill: #f69d50; }
+      .command { fill: #f0f6fc; }
+      .output { fill: #ffa657; }
       
       .cursor {
-        fill: #e5e7eb;
+        fill: #f0f6fc;
         animation: blink 1s infinite;
       }
       
@@ -24,33 +49,47 @@
         0%, 50% { opacity: 1; }
         51%, 100% { opacity: 0; }
       }
+      
+      .glow {
+        filter: drop-shadow(0 0 8px rgba(126, 231, 135, 0.4));
+      }
     </style>
   </defs>
   
-  <!-- Terminal Background -->
-  <rect class="terminal" x="20" y="20" width="760" height="260"/>
+  <!-- Terminal Window -->
+  <rect class="terminal" x="15" y="15" width="670" height="250"/>
+  
+  <!-- Title Bar -->
+  <rect class="title-bar" x="15" y="15" width="670" height="28"/>
+  
+  <!-- Window Controls -->
+  <circle class="window-controls close" cx="28" cy="29" r="5"/>
+  <circle class="window-controls minimize" cx="45" cy="29" r="5"/>
+  <circle class="window-controls maximize" cx="62" cy="29" r="5"/>
+  
+  <!-- Terminal Title -->
+  <text x="350" y="34" text-anchor="middle" class="title-text">
+    caio@innovation-lab: ~/portfolio
+  </text>
+  
+  <!-- ASCII Title - CAIO simples e funcional -->
+  <text x="350" y="75" class="ascii-title glow">
+    █▀█ █▀█ █ █▀█    █▀▀ █▀█ ▀█▀ █
+  </text>
+  <text x="340" y="95" class="ascii-title glow">
+    █▄▄ █▀█ █ █▄█    █▀▀ █▄█  █  █
+  </text>
   
   <!-- Terminal Content -->
-  <g font-family="'SF Mono', 'Monaco', 'Cascadia Code', monospace" font-size="16">
-    
-    <!-- Line 1 -->
-    <text x="40" y="60">
-      <tspan class="user">caio</tspan><tspan class="at">@</tspan><tspan class="host">github</tspan><tspan class="path">:~$ </tspan><tspan class="command">whoami</tspan>
+  <g font-family="SF Mono, Monaco, Consolas, monospace" font-size="13">
+    <text x="30" y="150">
+      <tspan class="user">caio</tspan>@<tspan class="host">innovation</tspan>:<tspan class="path">~</tspan>$ <tspan class="command">cat profile.txt</tspan>
     </text>
-    <text x="40" y="85" class="output">Caio Foti Pontes</text>
+    <text x="30" y="170" class="output">🏥 Innovation Software Developer @ Santa Casa Hospital</text>
+    <text x="30" y="188" class="output">🎓 Biomedical Informatics | 💻 Full-Stack Developer</text>
     
-    <!-- Line 2 -->
-    <text x="40" y="120">
-      <tspan class="user">caio</tspan><tspan class="at">@</tspan><tspan class="host">github</tspan><tspan class="path">:~$ </tspan><tspan class="command">cat about.txt</tspan>
+    <text x="30" y="215">
+      <tspan class="user">caio</tspan>@<tspan class="host">innovation</tspan>:<tspan class="path">~</tspan>$ <tspan class="command">ls projects/</tspan><tspan class="cursor">▎</tspan>
     </text>
-    <text x="40" y="145" class="output">🏥 Innovation Software Developer @ Santa Casa Hospital</text>
-    <text x="40" y="170" class="output">🎓 Biomedical Informatics Student @ UFCSPA</text>
-    <text x="40" y="195" class="output">💻 Full-Stack Dev | Data Analysis | Healthcare Systems</text>
-    
-    <!-- Current line -->
-    <text x="40" y="230">
-      <tspan class="user">caio</tspan><tspan class="at">@</tspan><tspan class="host">github</tspan><tspan class="path">:~$ </tspan><tspan class="command">explore_repos</tspan><tspan class="cursor">_</tspan>
-    </text>
-    
   </g>
 </svg>
