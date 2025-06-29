@@ -1,28 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <style>
-    .bg { fill: #000; }
-    .text { fill: #00FF00; font-family: 'Courier New', monospace; font-size: 24px; }
-    .cursor { fill: #00FF00; animation: blink 1s step-end infinite; }
-    line.separator { stroke: #00FF00; stroke-width: 2; stroke-dasharray: 8 4; animation: dash 1s linear infinite; }
-    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @keyframes dash { to { stroke-dashoffset: 12; } }
-  </style>
-
-  <!-- Background -->
-  <rect width="100%" height="100%" class="bg"/>
-
-  <!-- Header -->
-  <text x="50%" y="150" class="text" text-anchor="middle">Caio Foti - GitHub Profile</text>
-
-  <!-- Welcome message -->
-  <text x="50%" y="240" class="text" text-anchor="middle">Hey there, I'm Caio. Welcome to my GitHub!</text>
-
-  <!-- Prompt line with blinking cursor -->
-  <g transform="translate(40,340)">
-    <text class="text">$ Loading profile data</text>
-    <text x="225" y="0" class="cursor">_</text>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .terminal-bg {
+        fill: #0c0c0c;
+        stroke: #333;
+        stroke-width: 2;
+        rx: 8;
+      }
+      .title-bar {
+        fill: #2d2d30;
+        rx: 8 8 0 0;
+      }
+      .terminal-button {
+        rx: 50%;
+      }
+      .close { fill: #ff5f57; }
+      .minimize { fill: #ffbd2e; }
+      .maximize { fill: #28ca42; }
+      
+      .prompt { fill: #00d7ff; font-weight: bold; }
+      .user { fill: #98fb98; font-weight: bold; }
+      .path { fill: #dda0dd; }
+      .command { fill: #ffffff; }
+      .output { fill: #00ff00; }
+      .cursor {
+        fill: #ffffff;
+        animation: blink 1s infinite;
+      }
+      
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+      
+      .typing {
+        animation: typing 3s steps(40, end), blink-cursor 0.75s step-end infinite;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid #00ff00;
+      }
+      
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      
+      .loading-bar {
+        animation: loading 2s ease-in-out infinite;
+      }
+      
+      @keyframes loading {
+        0%, 100% { stroke-dashoffset: 100; }
+        50% { stroke-dashoffset: 0; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Terminal Window -->
+  <rect class="terminal-bg" x="50" y="50" width="700" height="500"/>
+  
+  <!-- Title Bar -->
+  <rect class="title-bar" x="50" y="50" width="700" height="40"/>
+  
+  <!-- Window Controls -->
+  <circle class="terminal-button close" cx="75" cy="70" r="6"/>
+  <circle class="terminal-button minimize" cx="100" cy="70" r="6"/>
+  <circle class="terminal-button maximize" cx="125" cy="70" r="6"/>
+  
+  <!-- Terminal Title -->
+  <text x="400" y="75" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#cccccc">
+    Terminal - Caio Foti Profile
+  </text>
+  
+  <!-- Terminal Content -->
+  <g font-family="'Consolas', 'Courier New', monospace" font-size="16">
+    <!-- Line 1: Welcome -->
+    <text x="70" y="130">
+      <tspan class="user">caio@github</tspan><tspan class="prompt">:</tspan><tspan class="path">~$</tspan> <tspan class="command">whoami</tspan>
+    </text>
+    
+    <!-- Line 2: Output -->
+    <text x="70" y="155" class="output">Caio Foti - Full Stack Developer</text>
+    
+    <!-- Line 3: Command -->
+    <text x="70" y="190">
+      <tspan class="user">caio@github</tspan><tspan class="prompt">:</tspan><tspan class="path">~$</tspan> <tspan class="command">cat welcome.txt</tspan>
+    </text>
+    
+    <!-- Line 4: Output -->
+    <text x="70" y="215" class="output">Hey there! Welcome to my GitHub profile!</text>
+    <text x="70" y="240" class="output">🚀 Passionate about code, innovation and technology</text>
+    <text x="70" y="265" class="output">💻 Building amazing software solutions</text>
+    
+    <!-- Line 5: Status Command -->
+    <text x="70" y="300">
+      <tspan class="user">caio@github</tspan><tspan class="prompt">:</tspan><tspan class="path">~$</tspan> <tspan class="command">status --profile</tspan>
+    </text>
+    
+    <!-- Loading Animation -->
+    <text x="70" y="325" class="output">Loading profile data...</text>
+    
+    <!-- Progress Bar -->
+    <rect x="70" y="340" width="400" height="4" fill="#333" rx="2"/>
+    <rect x="70" y="340" width="400" height="4" fill="none" stroke="#00ff00" stroke-width="4" 
+          stroke-dasharray="20 380" class="loading-bar" rx="2"/>
+    
+    <!-- Current Command Line -->
+    <text x="70" y="375">
+      <tspan class="user">caio@github</tspan><tspan class="prompt">:</tspan><tspan class="path">~$</tspan> 
+      <tspan class="command">explore --repositories</tspan><tspan class="cursor">█</tspan>
+    </text>
+    
+    <!-- Footer Info -->
+    <text x="70" y="420" class="output" opacity="0.7">→ Feel free to explore my repositories below!</text>
+    <text x="70" y="445" class="output" opacity="0.7">→ Let's connect and build something awesome together!</text>
   </g>
-
-  <!-- Separator line -->
-  <line x1="40" y1="380" x2="760" y2="380" class="separator"/>
+  
+  <!-- Decorative Elements -->
+  <rect x="60" y="480" width="680" height="1" fill="#333"/>
+  <text x="400" y="510" text-anchor="middle" font-family="'Consolas', monospace" font-size="12" fill="#666">
+    Press any key to continue...
+  </text>
 </svg>
