@@ -10,25 +10,9 @@
 
 # Technical Skills
 
-| Área                  | Tecnologias / Ferramentas                                                      |
-|-----------------------|--------------------------------------------------------------------------------|
-| **Backend**           | Laravel 9.x (MVC, Queues, Events, RBAC)<br>Django 4.x<br>JWT (Sanctum, Passport) |
-| **Frontend**          | Blade<br>React 18 (Tailwind, Axios, React Router)<br>Vue.js 3<br>Vite<br>Laravel Mix |
-| **Databases**         | MySQL<br>PostgreSQL<br>SQLite                                                   |
-| **Real‑time**         | Laravel Echo<br>Pusher PHP<br>Broadcasting                                      |
-| **APIs & Integrações**| Sistemas hospitalares e governamentais (Tasy, SINAN, SIM, SICLOM)<br>APIs REST |
-| **Infrastructure**    | Linux (bash, systemd)<br>Nginx, Apache                                          |
-| **DevOps**            | Docker, Git (GitHub Actions CI/CD), Redis                                      |
-| **Testes & Logs**     | PHPUnit, Laravel Telescope                                                     |
-
----
-
-# Currently Learning
-
-- Flutter  
-- Firebase  
-- Go  
-
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=laravel,django,jwt,php,js,react,vue,vite,laravelmix,mysql,postgres,sqlite,echo,pusher,docker,git,redis,phpunit" />
+</p>
 ---
 
 # Languages
