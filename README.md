@@ -10,25 +10,24 @@
 
 # Technical Skills
 
-| Área                    | Tecnologias / Ferramentas                                                        |
-|-------------------------|----------------------------------------------------------------------------------|
-| **Backend**             | Laravel (MVC, Queues, Events, Spatie RBAC, Horizon, Prism)<br>Express.js<br>JWT (Sanctum/Passport) |
-| **Frontend**            | Blade<br>React.js (Vite, Tailwind, Axios, React Router, react-admin)<br>Vue.js<br>Flutter + Firebase (nível básico) |
-| **Databases**           | MySQL (índices, procedures)<br>Oracle SQL (Tasy)                                 |
-| **Integrações**         | Tasy, SINAN, SIM, SICLOM<br>APIs customizadas<br>LDAP / Active Directory<br>Automação em SQL<br>Postman |
-| **DevOps & Infra**      | Docker<br>Nginx, Apache<br>Git (CI/CD)<br>Redis, PM2<br>Linux (bash, serviços)   |
-| **Testes & Logs**       | PHPUnit<br>Winston<br>Laravel Telescope<br>Estratégias de logging customizadas    |
-| **Data Science & Viz**  | Python (Pandas, NumPy, GeoPandas, scikit-learn, Seaborn)<br>geopy<br>Power BI, Google Data Studio<br>QGIS, ArcGIS |
-| **Complementar**        | Fundamentos de Java (Eclipse)<br>Estudos em Go e frameworks diversos             |
+| Área                  | Tecnologias / Ferramentas                                                      |
+|-----------------------|--------------------------------------------------------------------------------|
+| **Backend**           | Laravel 9.x (MVC, Queues, Events, RBAC)<br>Django 4.x<br>JWT (Sanctum, Passport) |
+| **Frontend**          | Blade<br>React 18 (Tailwind, Axios, React Router)<br>Vue.js 3<br>Vite<br>Laravel Mix |
+| **Databases**         | MySQL<br>PostgreSQL<br>SQLite                                                   |
+| **Real‑time**         | Laravel Echo<br>Pusher PHP<br>Broadcasting                                      |
+| **APIs & Integrações**| Sistemas hospitalares e governamentais (Tasy, SINAN, SIM, SICLOM)<br>APIs REST |
+| **Infrastructure**    | Linux (bash, systemd)<br>Nginx, Apache                                          |
+| **DevOps**            | Docker, Git (GitHub Actions CI/CD), Redis                                      |
+| **Testes & Logs**     | PHPUnit, Laravel Telescope                                                     |
 
 ---
 
 # Currently Learning
 
-- Flutter
-- Firebase
-- AWS
-- Go
+- Flutter  
+- Firebase  
+- Go  
 
 ---
 
