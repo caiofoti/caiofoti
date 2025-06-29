@@ -1,27 +1,74 @@
 <div align="center">
-  <img width="500px" src="welcome.svg">
+  <img src="welcome.svg" width="400" alt="Welcome Banner">
+  <p>
+    <a href="mailto:caio.pontes@ufcspa.edu.br">📫 Email</a> |
+    <a href="https://br.linkedin.com/in/caio-foti-pontes-0a1a54206">LinkedIn</a>
+  </p>
 </div>
 
-📫 How to reach me: caio.pontes@ufcspa.edu.br 
+---
 
-Linkedin: <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="caio-foti-pontes-0a1a54206" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/caio-foti-pontes-0a1a54206?trk=profile-badge">Caio Foti Pontes</a></div>
-              
+## 🛠️ Technical Overview
 
-## 🛠️ Myskills
+### ⚙️ Backend
+- **Laravel** (MVC, Queues, Events, Spatie RBAC, Horizon, Prism)
+- **Express.js**
+- **JWT** (Sanctum/Passport)
 
-[![Specifying Icons](https://skillicons.dev/icons?i=python,java,php,js,typescript,html,css,react,angular,django,laravel,mysql,git&perline=5)](https://skillicons.dev)
+### 🎨 Frontend
+- **Blade**, **React.js** (Vite, Tailwind, Axios, React Router, react-admin)
+- **Vue.js**
+- **Flutter + Firebase** (basic)
 
-## 📚 LearningSkills
+### 🗄️ Databases
+- **MySQL** (indexes, procedures)
+- **Oracle SQL** (Tasy)
 
-[![Specifying Icons](https://skillicons.dev/icons?i=flutter,firebase,aws,go&perline=5)](https://skillicons.dev)
+### 🔗 Integrations
+- Hospital and state systems: **Tasy**, **SINAN**, **SIM**, **SICLOM**
+- Custom APIs
+- **LDAP/Active Directory**
+- SQL automations
+- Postman collections
 
-## 🌐 Language Skills
+### ⚡ DevOps & Infrastructure
+- **Docker**, **Nginx**, **Apache**
+- **Git** (CI/CD workflows)
+- **Redis**, **PM2**
+- **Linux** (bash scripting, service management)
 
-- **German:** Advanced
-- **English:** Advanced
-- **Spanish:** Intermediate
+### ✅ Testing & Logging
+- **PHPUnit**, **Winston**
+- **Laravel Telescope**
+- Custom log strategies
 
-## &#x1f4c8; GitHub Stats
+### 📊 Data Science & Visualization
+- **Python** (Pandas, NumPy, GeoPandas, scikit-learn, Seaborn)
+- **geopy**
+- **Power BI**, **Google Data Studio**
+- **QGIS**, **ArcGIS**
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=caiofoti)](https://github.com/caiofoti/github-readme-stats)
+### 🧩 Complementary
+- Fundamentals in **Java** (Eclipse)
+- Studies in **Go** and various frameworks
 
+---
+
+## 📚 Currently Learning
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,firebase,aws,go&perline=4" alt="Learning">
+</p>
+
+---
+
+## 🌐 Languages
+- 🇩🇪 **German**: Advanced
+- 🇬🇧 **English**: Advanced
+- 🇪🇸 **Spanish**: Intermediate
+
+---
+
+## 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiofoti&layout=compact&theme=transparent" alt="Top Languages">
+</p>
