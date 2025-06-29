@@ -1,20 +1,50 @@
-<svg width="700" height="280" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="350" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
+      /* Boot screen animation */
+      .boot-screen {
+        fill: #000000;
+        opacity: 1;
+        animation: bootFade 2s ease-out forwards;
+      }
+      
+      .boot-text {
+        fill: #00ff00;
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        opacity: 0;
+        animation: bootTextAppear 0.5s ease-out forwards;
+      }
+      
+      .boot-line-1 { animation-delay: 0.2s; }
+      .boot-line-2 { animation-delay: 0.4s; }
+      .boot-line-3 { animation-delay: 0.6s; }
+      .boot-line-4 { animation-delay: 0.8s; }
+      .boot-line-5 { animation-delay: 1.0s; }
+      .boot-line-6 { animation-delay: 1.2s; }
+      
+      /* Terminal elements - appear after boot */
       .terminal {
         fill: #0d1117;
         stroke: #30363d;
-        stroke-width: 1;
+        stroke-width: 1.5;
         rx: 8;
+        filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.4));
+        opacity: 0;
+        animation: terminalFadeIn 1s ease-out 2.5s forwards;
       }
       
       .title-bar {
         fill: #21262d;
         rx: 8 8 0 0;
+        opacity: 0;
+        animation: terminalFadeIn 1s ease-out 2.5s forwards;
       }
       
       .window-controls {
         rx: 50%;
+        opacity: 0;
+        animation: terminalFadeIn 1s ease-out 2.7s forwards;
       }
       .close { fill: #ff5f56; }
       .minimize { fill: #ffbd2e; }
@@ -24,25 +54,112 @@
         fill: #8b949e;
         font-size: 12px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        opacity: 0;
+        animation: terminalFadeIn 1s ease-out 2.8s forwards;
       }
       
-      .ascii-title {
+      .title {
         fill: #7ee787;
-        font-family: 'Courier New', monospace;
-        font-size: 18px;
+        font-family: 'Fira Code', 'Cascadia Code', monospace;
+        font-size: 36px;
         font-weight: bold;
-        text-anchor: middle;
+        filter: drop-shadow(0 0 8px rgba(126, 231, 135, 0.4));
+        opacity: 0;
+        animation: terminalFadeIn 1.5s ease-out 3.5s forwards;
+      }
+      
+      .subtitle {
+        fill: #58a6ff;
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        font-size: 15px;
+        font-weight: normal;
+        opacity: 0;
+        animation: terminalFadeIn 1.5s ease-out 4s forwards;
       }
       
       .user { fill: #58a6ff; font-weight: bold; }
       .host { fill: #7ee787; font-weight: bold; }
       .path { fill: #f69d50; }
-      .command { fill: #f0f6fc; }
-      .output { fill: #ffa657; }
+      
+      .command-1 {
+        fill: #f0f6fc;
+        opacity: 0;
+        animation: typing 2.5s steps(15, end) 5s forwards;
+      }
+      
+      .command-2 {
+        fill: #f0f6fc;
+        opacity: 0;
+        animation: typing 2s steps(20, end) 8.5s forwards;
+      }
+      
+      .output-1 {
+        fill: #ffa657;
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out 7.5s forwards;
+      }
+      
+      .output-2 {
+        fill: #ffa657;
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out 7.8s forwards;
+      }
+      
+      .output-success {
+        fill: #39d353;
+        opacity: 0;
+        font-weight: bold;
+        animation: fadeIn 0.5s ease-out 10.5s forwards, pulse 2s ease-in-out 11s infinite;
+      }
+      
+      .prompt-1 {
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out 4.8s forwards;
+      }
+      
+      .prompt-2 {
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out 8.2s forwards;
+      }
       
       .cursor {
         fill: #f0f6fc;
-        animation: blink 1s infinite;
+        opacity: 0;
+        animation: blink 1.2s infinite 11s;
+      }
+      
+      .final-message {
+        fill: #58a6ff;
+        font-weight: bold;
+        opacity: 0;
+        animation: fadeIn 0.5s ease-out 11.5s forwards;
+      }
+      
+      @keyframes bootFade {
+        0% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      
+      @keyframes bootTextAppear {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes terminalFadeIn {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      
+      @keyframes typing {
+        from { 
+          opacity: 1;
+          clip-path: inset(0 100% 0 0); 
+        }
+        to { 
+          opacity: 1;
+          clip-path: inset(0 0 0 0); 
+        }
       }
       
       @keyframes blink {
@@ -50,46 +167,86 @@
         51%, 100% { opacity: 0; }
       }
       
-      .glow {
-        filter: drop-shadow(0 0 8px rgba(126, 231, 135, 0.4));
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+      
+      .bg-pattern {
+        opacity: 0;
+        animation: terminalFadeIn 1s ease-out 2.5s forwards;
       }
     </style>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    
+    <pattern id="grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="20" height="20" fill="none" stroke="#ffffff" stroke-width="0.2" opacity="0.05"/>
+    </pattern>
   </defs>
   
+  <!-- Boot Screen Animation -->
+  <rect class="boot-screen" x="0" y="0" width="700" height="350"/>
+  
+  <g class="boot-text">
+    <text x="50" y="80" class="boot-line-1">BIOS Version 2.14.1208 Copyright (C) 1985-2024</text>
+    <text x="50" y="100" class="boot-line-2">Detecting RAM............... 16384 MB OK</text>
+    <text x="50" y="120" class="boot-line-3">Initializing GitHub Terminal...</text>
+    <text x="50" y="140" class="boot-line-4">Loading user profile: caiofoti</text>
+    <text x="50" y="160" class="boot-line-5">Connecting to GitHub servers... OK</text>
+    <text x="50" y="180" class="boot-line-6">Press any key to continue...</text>
+  </g>
+  
   <!-- Terminal Window -->
-  <rect class="terminal" x="15" y="15" width="670" height="250"/>
+  <rect class="terminal" x="15" y="15" width="670" height="320" filter="url(#shadow)"/>
+  <rect x="15" y="43" width="670" height="292" fill="url(#grid)" class="bg-pattern"/>
   
   <!-- Title Bar -->
   <rect class="title-bar" x="15" y="15" width="670" height="28"/>
-  
-  <!-- Window Controls -->
   <circle class="window-controls close" cx="28" cy="29" r="5"/>
   <circle class="window-controls minimize" cx="45" cy="29" r="5"/>
   <circle class="window-controls maximize" cx="62" cy="29" r="5"/>
   
-  <!-- Terminal Title -->
   <text x="350" y="34" text-anchor="middle" class="title-text">
-    caio@innovation-lab: ~/portfolio
+    caio@github: ~/caiofoti
   </text>
   
-  <!-- ASCII Title - CAIO simples e funcional -->
-  <text x="350" y="75" class="ascii-title glow">
-    █▀█ █▀█ █ █▀█    █▀▀ █▀█ ▀█▀ █
-  </text>
-  <text x="340" y="95" class="ascii-title glow">
-    █▄▄ █▀█ █ █▄█    █▀▀ █▄█  █  █
+  <!-- Professional Title -->
+  <text x="350" y="90" text-anchor="middle" class="title">
+    CAIO FOTI
   </text>
   
-  <!-- Terminal Content -->
-  <g font-family="SF Mono, Monaco, Consolas, monospace" font-size="13">
-    <text x="30" y="150">
-      <tspan class="user">caio</tspan>@<tspan class="host">innovation</tspan>:<tspan class="path">~</tspan>$ <tspan class="command">cat profile.txt</tspan>
+  <text x="350" y="115" text-anchor="middle" class="subtitle">
+    Biomedical Informatics Student from UFCSPA
+  </text>
+  
+  <!-- Simplified Terminal Session -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="13">
+    <!-- First command -->
+    <text x="30" y="150" class="prompt-1">
+      <tspan class="user">caio</tspan>@<tspan class="host">github</tspan>:<tspan class="path">~/caiofoti</tspan>$ <tspan class="command-1">cat README.md</tspan>
     </text>
-    <text x="30" y="170" class="output">🏥 Innovation Software Developer @ Santa Casa Hospital</text>
-    <text x="30" y="188" class="output">🎓 Biomedical Informatics | 💻 Full-Stack Developer</text>
     
-    <text x="30" y="215">
-      <tspan class="user">caio</tspan>@<tspan class="host">innovation</tspan>:<tspan class="path">~</tspan>$ <tspan class="command">ls projects/</tspan><tspan class="cursor">▎</tspan>
+    <text x="30" y="170" class="output-1">🏥 Innovation Software Developer @ Santa Casa Hospital</text>
+    <text x="30" y="188" class="output-2">🎓 Biomedical Informatics | 💻 Full-Stack Developer</text>
+    
+    <!-- Final command -->
+    <text x="30" y="220" class="prompt-2">
+      <tspan class="user">caio</tspan>@<tspan class="host">github</tspan>:<tspan class="path">~/caiofoti</tspan>$ <tspan class="command-2">open github.com/caiofoti</tspan>
+    </text>
+    
+    <text x="30" y="240" class="output-success">✓ Opening repository... Welcome to my GitHub profile!</text>
+    
+    <!-- Final message -->
+    <text x="30" y="270" class="final-message">
+      → Explore my projects and feel free to collaborate! <tspan class="cursor">▎</tspan>
     </text>
   </g>
 </svg>
