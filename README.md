@@ -12,7 +12,7 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=laravel,react,vue,python,express,js,java,mysql,linux,docker,git" />
+  <img src="https://skillicons.dev/icons?i=laravel,react,vue,python,django,express,js,java,mysql,linux,ubuntu,docker,git" />
 </p>
 
 ---
