@@ -223,10 +223,6 @@
     CAIO FOTI
   </text>
   
-  <text x="350" y="115" text-anchor="middle" class="subtitle">
-    Biomedical Informatics Student from UFCSPA
-  </text>
-  
   <!-- Simplified Terminal Session -->
   <g font-family="'SF Mono', 'Fira Code', monospace" font-size="13">
     <!-- First command -->
@@ -234,8 +230,8 @@
       <tspan class="user">caio</tspan>@<tspan class="host">github</tspan>:<tspan class="path">~/caiofoti</tspan>$ <tspan class="command-1">cat README.md</tspan>
     </text>
     
-    <text x="30" y="170" class="output-1">🏥 Innovation Software Developer @ Santa Casa Hospital</text>
-    <text x="30" y="188" class="output-2">🎓 Biomedical Informatics | 💻 Full-Stack Developer</text>
+    <text x="30" y="170" class="output-1"> Software Developer @ Santa Casa de Porto Alegre Hospital Complex</text>
+    <text x="30" y="188" class="output-2"> Bachelor's Degrees in Biomedical Informatics - UFCSPA</text>
     
     <!-- Final command -->
     <text x="30" y="220" class="prompt-2">
