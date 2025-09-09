@@ -230,7 +230,7 @@
       <tspan class="user">caio</tspan>@<tspan class="host">github</tspan>:<tspan class="path">~/caiofoti</tspan>$ <tspan class="command-1">cat README.md</tspan>
     </text>
     
-    <text x="30" y="170" class="output-1"> Software Developer @ Santa Casa de Porto Alegre Hospital Complex</text>
+    <text x="30" y="170" class="output-1"> Software Developer @ Santa Casa de Porto Alegre</text>
     <text x="30" y="188" class="output-2"> Bachelor's Degrees in Biomedical Informatics - UFCSPA</text>
     
     <!-- Final command -->
