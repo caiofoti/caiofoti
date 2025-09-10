@@ -2,14 +2,14 @@
   <img src="welcome.svg" width="500" alt="Caio Foti Pontes">
   
   <p>
-    <a href="mailto:caio.pontes@ufcspa.edu.br">📧 Email</a> |
-    <a href="https://br.linkedin.com/in/caio-foti-pontes-0a1a54206">💼 LinkedIn</a>
+    <a href="mailto:caio.pontes@ufcspa.edu.br">Email</a> |
+    <a href="https://br.linkedin.com/in/caio-foti-pontes-0a1a54206">LinkedIn</a>
   </p>
 </div>
 
 ---
 
-## 🛠️ Tech Stack
+## Stacks
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=laravel,react,vue,python,django,express,js,java,mysql,linux,ubuntu,docker,git" />
@@ -17,7 +17,7 @@
 
 ---
 
-- **Innovation Software Developer** @ Santa Casa Hospital
+- **Software Developer** @ Santa Casa de Porto Alegre
 - **Biomedical Informatics Student** @ UFCSPA
   
 ---
