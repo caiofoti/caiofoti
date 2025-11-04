@@ -12,7 +12,7 @@
 ## Stacks
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,react,vue,python,django,express,js,java,mysql,linux,ubuntu,docker,git" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,react,vue,python,django,express,js,java,linux,ubuntu,docker,git" />
 </p>
 
 ---
