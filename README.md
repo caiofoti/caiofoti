@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="welcome.svg" width="500" alt="Caio Foti Pontes">
+  <img src="welcome.gif" width="500" alt="Caio Foti Pontes">
 
   <p>
     <a href="mailto:caio.pontes@ufcspa.edu.br">Email</a> ·
