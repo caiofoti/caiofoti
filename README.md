@@ -9,44 +9,14 @@
 
 ---
 
-**Software Developer** @ Santa Casa de Porto Alegre  
-**Biomedical Informatics Student** @ UFCSPA
+Hi there 👋
 
----
+I'm Caio, a software developer focused on building reliable web systems. Currently working at Santa Casa de Porto Alegre and studying Biomedical Informatics at UFCSPA.
 
-## Stacks
+**Proficient:**
 
-**Backend**
+[![](https://skillicons.dev/icons?i=php,laravel,python,django,js,react,mysql,linux,ubuntu,git)](https://skillicons.dev)
 
-proficient &nbsp;
-![](https://skillicons.dev/icons?i=php,laravel,python,django)
+**Familiar:**
 
-familiar &nbsp;
-![](https://skillicons.dev/icons?i=express,java)
-
----
-
-**Frontend**
-
-proficient &nbsp;
-![](https://skillicons.dev/icons?i=js,react)
-
-familiar &nbsp;
-![](https://skillicons.dev/icons?i=vue)
-
----
-
-**Data**
-
-proficient &nbsp;
-![](https://skillicons.dev/icons?i=mysql)
-
----
-
-**Infra & Tools**
-
-proficient &nbsp;
-![](https://skillicons.dev/icons?i=linux,ubuntu,git)
-
-familiar &nbsp;
-![](https://skillicons.dev/icons?i=docker)
+[![](https://skillicons.dev/icons?i=vue,express,java,docker)](https://skillicons.dev)
